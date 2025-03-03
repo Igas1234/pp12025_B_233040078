@@ -34,6 +34,7 @@ public class StrukturList {
     	}
     }
     
+    
     public void addHead(int data) {
     	Node newNode=new Node(data);
     	if(isEmpty()) {
