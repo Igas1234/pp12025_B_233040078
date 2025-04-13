@@ -23,27 +23,49 @@ public class ListMain {
 // ------------------------------------------------------------------------------------------------------------------------
         // Latihan 4 modul 4
 
-        list.addHead(3);
-        list.addHead(6);
-        list.addHead(2);
-        list.addTail(5);
-        list.addTail(1);
+        // list.addHead(3);
+        // list.addHead(6);
+        // list.addHead(2);
+        // list.addTail(5);
+        // list.addTail(1);
 
-        System.out.println("Element: ");
-        list.displayElement();
+        // System.out.println("Element: ");
+        // list.displayElement();
 
-        System.out.println("\n\nElement setelah di removeTail ");
-        list.removeTail();
-        list.displayElement();
+        // System.out.println("\n\nElement setelah di removeTail ");
+        // list.removeTail();
+        // list.displayElement();
         
-        System.out.println("\n\nElement setelah di removeHead ");
-        list.removeHead();
-        list.displayElement();
+        // System.out.println("\n\nElement setelah di removeHead ");
+        // list.removeHead();
+        // list.displayElement();
 
-        System.out.println("\n\nElement setelah di removeHead ");
-        list.removeTail();
-        list.displayElement();
+        // System.out.println("\n\nElement setelah di removeHead ");
+        // list.removeTail();
+        // list.displayElement();
 
+// -------------------------------------------------------------------------------------------------------------
 
-    }
+//  Pertemuan 7 Modul 5
+list.addHead(3);
+list.addHead(6);
+list.addHead(2);
+list.addTail(5);
+list.addTail(1);
+
+System.out.println("Element: ");
+list.displayElement();
+
+System.out.println("\n\nElement setelah di removeMid ");
+list.removeMid(3);
+list.displayElement();
+
+System.out.println("\n\nElement setelah di removeMid ");
+list.removeMid(6);
+list.displayElement();
+
+System.out.println("\n\nElement setelah di removeMid ");
+list.removeMid(5);
+list.displayElement();
+}
 }
