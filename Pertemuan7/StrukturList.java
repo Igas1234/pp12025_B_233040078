@@ -66,6 +66,8 @@ public class StrukturList {
 	            }
 	        }
 	    }
+// ----------------------------------------------------------------------------------------------
+
 
 	    public void dispose(Node temp) {
 	        temp.setNext(null);
