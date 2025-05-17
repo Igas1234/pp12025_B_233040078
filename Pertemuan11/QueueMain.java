@@ -3,33 +3,6 @@ package Pertemuan11;
 public class QueueMain { public static void main(String[] args){
       StrukturQueue queue = new StrukturQueue();
 
-        System.out.println("\n\n");
-
-        // ===== LATIHAN 1: Enqueue =====
-        System.out.println("==== LATIHAN 1: Enqueue ====");
-        queue.enqueue(2);
-        queue.enqueue(7);
-        queue.enqueue(6);
-        queue.enqueue(1);
-
-        System.out.println("\n\n");
-
-        // ===== LATIHAN 2: isEmpty check sebelum dan sesudah enqueue =====
-        System.out.println("==== LATIHAN 2: isEmpty ====");
-        StrukturQueue tempQueue = new StrukturQueue();
-        System.out.println("Sebelum enqueue, isEmpty: " + tempQueue.isEmpty());
-        tempQueue.enqueue(5);
-        System.out.println("Setelah enqueue, isEmpty: " + tempQueue.isEmpty());
-
-        System.out.println("\n\n");
-
-        // ===== LATIHAN 3: size() dan front() =====
-        System.out.println("==== LATIHAN 3: size() dan front() ====");
-        System.out.println("Size: " + queue.size());
-        System.out.println("Front: " + queue.front());
-
-        System.out.println("\n\n");
-
         // ===== LATIHAN 4: Simulasi Enqueue 3x ====
         System.out.println("==== LATIHAN 4: Simulasi Enqueue 3x ====");
         StrukturQueue q4 = new StrukturQueue();

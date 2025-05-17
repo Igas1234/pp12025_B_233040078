@@ -14,7 +14,7 @@ public class StrukturQueue {
 
     public void enqueue(int data) {
         Node newNode = new Node(data);
-        if (FRONT == null) {
+        if (isEmpty()) {
             FRONT = REAR = newNode;
         } else {
             REAR.setNext(newNode);
@@ -36,13 +36,13 @@ public class StrukturQueue {
     }
 
     public int size() {
-        int count = 0;
+        int size = 0;
         Node current = FRONT;
         while (current != null) {
-            count++;
+            size++;
             current = current.getNext();
         }
-        return count;
+        return size;
     }
 
     public int front() {
